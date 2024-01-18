@@ -202,5 +202,60 @@ Let's get cracking! 🍐💼🔍
 
 ---
 
-## How to run
-Please fill this section as part of the assignment.
+
+# How to Run
+
+## Prerequisites
+
+Before running the notebooks, ensure you have the following installed:
+- **Python**: Version 3.x (recommended 3.8 or later)
+- **Jupyter Notebook**: For interacting with the notebook files
+- **Required Libraries**: All Python libraries used in the project are listed in `requirements.txt`.
+
+## Installation
+
+1. **Clone the Repository** (Skip this step if you have already downloaded the project files):
+   ```
+   git clone https://github.com/ramzimessaoud/xtream-ai-assignment
+   cd xtream-ai-assignment
+   ```
+
+2. **Set Up a Virtual Environment** (Optional but recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies**:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Running the Notebooks
+
+1. **Launch Jupyter Notebook**:
+   ```
+   jupyter notebook
+   ```
+
+2. Once Jupyter Notebook is running in your browser, navigate to the folder containing the project notebooks.
+
+3. **Open the desired notebook** by clicking on its name.
+
+4. Run the notebook cells in sequence. You can do this by clicking on a cell and pressing `Shift + Enter`, or by using the "Run" button in the toolbar.
+
+## Navigating the Project
+
+- **Employee Churn Analysis**:
+  - Each notebook contains a mixture of code, visualizations, and explanations. Follow the narrative and execute the code cells as you go.
+
+## Additional Notes
+
+- If you encounter any issues with library versions, refer to the `requirements.txt` file for the exact versions used in this project.
+- For any queries or issues not covered in this guide, please feel free to contact me at messaoud.ramzi@gmail.com.
+
+## Exiting the Project
+
+When you're done, you can shut down the Jupyter Notebook server by pressing `Ctrl + C` in the terminal where it's running. If you've used a virtual environment, deactivate it by typing `deactivate`.
+```
+
